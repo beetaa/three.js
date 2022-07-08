@@ -7,6 +7,8 @@ three.js
 [![DeepScan][deepscan]][deepscan-url]
 [![Discord][discord]][discord-url]
 
+> something new!
+
 #### JavaScript 3D library ####
 
 The aim of the project is to create an easy to use, lightweight, cross-browser, general purpose 3D library. The current builds only include a WebGL renderer but WebGPU (experimental), SVG and CSS3D renderers are also available in the examples.
@@ -48,10 +50,10 @@ document.body.appendChild( renderer.domElement );
 
 function animation( time ) {
 
-	mesh.rotation.x = time / 2000;
-	mesh.rotation.y = time / 1000;
+ mesh.rotation.x = time / 2000;
+ mesh.rotation.y = time / 1000;
 
-	renderer.render( scene, camera );
+ renderer.render( scene, camera );
 
 }
 ```
@@ -70,7 +72,6 @@ git clone --depth=1 https://github.com/mrdoob/three.js.git
 
 [Releases](https://github.com/mrdoob/three.js/releases)
 
-
 [npm]: https://img.shields.io/npm/v/three
 [npm-url]: https://www.npmjs.com/package/three
 [build-size]: https://badgen.net/bundlephobia/minzip/three
@@ -81,4 +82,3 @@ git clone --depth=1 https://github.com/mrdoob/three.js.git
 [deepscan-url]: https://deepscan.io/dashboard#view=project&tid=16600&pid=19901&bid=525701
 [discord]: https://img.shields.io/discord/685241246557667386
 [discord-url]: https://discord.gg/56GBJwAnUS
-
